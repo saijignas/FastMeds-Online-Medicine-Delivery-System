@@ -33,7 +33,7 @@ A Hospital can
 * view available beds
 
 ## Features
-* User/Medical Store/Hospital location is detected using reverse geocoding api(MapMyIndia) by fetching their coordinates.
+* User/Medical Store/Hospital location is detected using reverse geocoding api (MapMyIndia) by fetching their coordinates.
 * Medical Store/Hospital profile shows the name, contect info, email , address and coordinates
 * An autocomplete search bar to search for medicines and beds
 * Inventory Management features such as adding , removing items and keeping track of transactions
@@ -41,7 +41,7 @@ A Hospital can
 
 ## View live App
 
-Hosted at **https://fastmeds.herokuapp.com/**
+Hosted at **https://FastMeds-Online-Medicine-Delivery-System.onrender.com/**
 
 
 ## Tech Stack Used
@@ -73,15 +73,15 @@ Your machine should have npm and node.js installed to use it locally.
    Go to the forked repo and clone it to your local machine:
 
 ```sh
-git clone https://github.com/Your_Username/charityplus.git
+git clone https://github.com/sjreddy7777/FastMeds-Online-Medicine-Delivery-System.git
 ```
 
 This will make a copy of the code to your local machine.
 
-2. Now move to the `fastmeds` directory.
+2. Now move to the `FastMeds-Online-Medicine-Delivery-System` directory.
 
 ```sh
-cd fastmeds
+cd FastMeds-Online-Medicine-Delivery-System
 ```
 
 3. Now check the remote of your local code by:
@@ -93,23 +93,23 @@ git remote -v
 The response should look like:
 
 ```sh
-origin	https://github.com/Your_Username/fastmeds.git (fetch)
-origin	https://github.com/Your_Username/fastmeds.git (push)
+origin	https://github.com/sjreddy7777/FastMeds-Online-Medicine-Delivery-System.git (fetch)
+origin	https://github.com/sjreddy7777/FastMeds-Online-Medicine-Delivery-System.git (push)
 ```
 
 To add upstream to remote, run:
 
 ```sh
-git remote add upstream https://github.com/milan0027/fastmeds.git
+git remote add upstream https://github.com/sjreddy7777/FastMeds-Online-Medicine-Delivery-System.git
 ```
 
 Again run `git remote -v`, the response should look like:
 
 ```sh
-origin	https://github.com/Your_Username/fastmeds.git (fetch)
-origin	https://github.com/Your_Username/fastmeds.git (push)
-upstream	https://github.com/milan0027/fastmeds (fetch)
-upstream	https://github.com/milan0027/fastmeds (push)
+origin	https://github.com/sjreddy7777/FastMeds-Online-Medicine-Delivery-System.git (fetch)
+origin	https://github.com/sjreddy7777/FastMeds-Online-Medicine-Delivery-System.git (push)
+upstream	https://github.com/sjreddy7777/FastMeds-Online-Medicine-Delivery-System (fetch)
+upstream	https://github.com/sjreddy7777/FastMeds-Online-Medicine-Delivery-System (push)
 ```
 
 4. Once the remote is set, install all the necessary dependencies by the following command:
@@ -125,7 +125,7 @@ npm install
 cd ..
 ```
 
-6. Create a `.env` file in the `fastmeds` directory and add the following
+6. Create a `.env` file in the `FastMeds-Online-Medicine-Delivery-System` directory and add the following
 ```sh
 MONGODB_URL=YOUR_MONGODB_URL
 ```
