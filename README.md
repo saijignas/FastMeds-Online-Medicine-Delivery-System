@@ -41,7 +41,7 @@ A Hospital can
 
 ## View live App
 
-Hosted at **https://FastMeds-Online-Medicine-Delivery-System.onrender.com/**
+Hosted at **https://fastmeds.onrender.com/**
 
 
 ## Tech Stack Used
